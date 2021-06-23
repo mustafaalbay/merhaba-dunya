@@ -1,13 +1,7 @@
 /**
  * Merhaba Dünya
  */
-basic.showLeds(`
-    . . . . .
-    . . . . .
-    . . . . .
-    . . . . .
-    . . . . .
-    `)
+basic.showIcon(IconNames.Heart)
 basic.forever(function () {
-    radio.sendValue("name", 0)
+	
 })
